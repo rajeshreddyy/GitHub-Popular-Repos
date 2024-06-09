@@ -1,0 +1,25 @@
+/* Write your CSS here */
+
+.button {
+  border-width: 0;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.language-button-item {
+  list-style: none;
+  margin: 13px;
+}
+
+.active {
+  border: 1px solid #0284c7;
+  border-radius: 15px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #0284c7;
+}

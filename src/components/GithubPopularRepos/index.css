@@ -1,0 +1,34 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+}
+
+.language-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 41px;
+}
+
+.popular-heading {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Lobster';
+}
+
+.repositories-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin: 25px;
+}
+
+.loader{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

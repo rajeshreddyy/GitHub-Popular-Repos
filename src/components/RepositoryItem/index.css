@@ -1,0 +1,95 @@
+/* Write your CSS here */
+
+.stars-forks-issues-container {
+  font-size: 13px;
+}
+
+.avatar-img {
+  height: 70px;
+  width: 70px;
+}
+
+.repository-item-container {
+  list-style: none;
+  background-color: #f8f8ff;
+  margin: 6px;
+  padding: 25px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 270px;
+  width: 225px;
+}
+
+.repo-name {
+  color: #e73959;
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin-bottom: 5px;
+  max-width: fit-content;
+}
+
+.stars-count {
+  margin: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: 'Roboto';
+}
+
+.forks-count {
+  margin: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: 'Roboto';
+}
+
+.issues-count {
+  margin: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: 'Roboto';
+}
+
+.stars-img {
+  height: 15px;
+  width: 15px;
+  padding: 2px;
+  margin: 2px;
+}
+
+.forks-img {
+  height: 15px;
+  width: 15px;
+  padding: 2px;
+  margin: 2px;
+}
+
+.issues-img {
+  height: 15px;
+  width: 15px;
+  padding: 2px;
+  margin: 2px;
+}
+
+
+
+
+.stars-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.issues-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.forks-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
